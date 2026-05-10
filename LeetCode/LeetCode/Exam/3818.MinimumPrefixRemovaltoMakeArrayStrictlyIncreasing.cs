@@ -10,14 +10,28 @@ namespace LeetCode.Exam
     {
         public static void Main(string[] args)
         {
-            int[] nums = new int[] { 1, 2, 3 };
+            int[] nums = new int[] { 4, 3, -2, -5 };
             int result = MinimumPrefixRemoval(nums);
             Console.WriteLine("Ket qua: " + result);
         }
 
         static public int MinimumPrefixRemoval(int[] nums)
         {
-            return 0;
+            int removeCount = 0;
+            bool isStrictlyIncreasing = false;
+
+            for (int i = nums.Length - 1; i > 0; i--)
+            {
+                if ((nums[i] > nums[i - 1]) && isStrictlyIncreasing == false)
+                {
+                    continue;
+                }
+                else {
+                    isStrictlyIncreasing = true;
+                    removeCount++;
+                }
+            }
+            return removeCount;
         }
     }
 }
