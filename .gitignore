@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LeetCode/LeetCode/bin/Debug/net8.0
+/LeetCode/LeetCode/obj/Debug/net8.0/ref
+/LeetCode/LeetCode/obj/Debug/net8.0/refint
+/LeetCode/LeetCode/obj/Debug/net8.0/apphost.exe
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfo.cs
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.AssemblyInfoInputs.cache
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.csproj.BuildWithSkipAnalyzers
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.csproj.CoreCompileInputs.cache
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.csproj.FileListAbsolute.txt
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.dll
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.genruntimeconfig.cache
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.pdb
+/LeetCode/LeetCode/obj/Debug/net8.0/LeetCode.sourcelink.json
